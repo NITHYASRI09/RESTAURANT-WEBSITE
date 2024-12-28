@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title> Web Design Mastery | Fork </title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              <img src="logo1.png" alt="logo" />
+              <span>Fork</span>
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Why Fudo</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button class="btn">
+              <span><i class="ri-login-box-line"></i></span>
+              Hurry Up!!
+            </button>
+          </li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn">
+            <span><i class="ri-login-box-line"></i></span>
+            Hurry Up!!
+          </button>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="header.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <div class="header__tag">
+            More than Faster
+            <img src="bike.jpg" alt="header tag" />
+          </div>
+          <h1>Be The Fastest In Delivering Your <span>Food</span></h1>
+          <p class="section__description">
+            Our job is to filling your tummy with delicious food and with fast
+            and free delivery.
+          </p>
+          <div class="header__btns">
+            <button class="btn">Get Started</button>
+            <div class="video-container">
+              <video id="myVideo" width="600" controls style="display:none;">
+                  <source src="retaurant video.mp4" type="video/mp4"> 
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+            <a href="#" id="watchVideoLink">
+              <span><i class="ri-play-fill"></i></span>
+              Watch Video
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">WHAT WE SERVE</p>
+      <h2 class="section__header">Your Favourite Food Delivery Partner</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="service 1.jpg" alt="service" />
+          <h4>Easy To Order</h4>
+          <p>You only need a few steps in ordering food</p>
+        </div>
+        <div class="service__card">
+          <img src="service 3.jpg" alt="service" />
+          <h4>Fastest Delivery</h4>
+          <p>Delivery that is always ontime even faster</p>
+        </div>
+        <div class="service card">
+          <img src="service 2.jpg" alt="service" />
+          <h4>Best Quality</h4>
+          <p>Not only fast for us quality is also number one</p>
+        </div>
+      </div>
+    </section>
+    <section class="section__container menu__container" id="menu">
+      <p class="section__subheader">OUR MENU</p>
+      <h2 class="section__header">Menu That Always Make You Fall In Love</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="menu 1.jpg" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Burger</h4>
+                <h5><span>$</span>7.49</h5>
+                <a href="#" class="order-btn" data-item="Burger - $7.49">                     
+                  Order Now
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="menu 2.jpg" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Paneer butter masala</h4>
+                <h5><span>$</span>4.49</h5>
+                <a href="#" class="order-btn" data-item="Paneer butter masala - $4.49">                   
+                    Order Now
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="menu 3.jpg" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Chicken Biriyani</h4>
+                <h5><span>$</span>5.99</h5>
+                <a href="#" class="order-btn" data-item="Chicken Biriyani - $5.99">                 
+                   Order Now
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="menu 4.jpg" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Gulfi</h4>
+                <h5><span>$</span>6.49</h5>
+                <a href="#" class="order-btn" data-item="Gulfi - $6.49">   
+                  Order Now
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="menu 5.jpg" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Fish fry</h4>
+                <h5><span>$</span>4.99</h5>
+                <a href="#" class="order-btn" data-item="Fish fry - $4.99">                    
+                   Order Now
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>  
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="menu 6.jpg" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Grill chicken</h4>
+                <h5><span>$</span>8.49</h5>
+                <a href="#" class="order-btn" data-item="Grill chicken - $5.99">                    
+                   Order Now
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="orderModal" class="modal" style="display:none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Enter Your Details</h2>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Full Name" required><br><br>
+        
+                <label for="date">Date:</label>
+                <input type="date" id="date" required><br><br>
+        
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="text" id="mobileNumber" placeholder="Mobile Number" required><br><br>
+        
+                <input type="checkbox" id="deliveryOption"> Request Delivery<br><br>
+        
+                <textarea id="address" placeholder="Address" style="display: none;"></textarea><br><br>
+        
+                <button id="confirmOrder">Confirm Order</button>
+                <p id="selectedItem" style="margin-top: 15px;"></p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__container client__container" id="client">
+      <div class="client__image">
+        <img src="client.png" alt="client" />
+      </div>
+      <div class="client__content">
+        <p class="section__subheader">WHAT THEY SAY</p>
+        <h2 class="section__header">What Our Customer Say About Us</h2>
+        <p class="section__description">
+          "Fudo is simply outstanding! The variety and deliciousness of their
+          meals are unparalleled, offering something for every palate. What sets
+          Fudo apart is their exceptional service. The delivery is impressively
+          fast, ensuring your food arrives hot and fresh."
+        </p>
+        <div class="client__details">
+          <img src="user.jpg" alt="client" />
+          <div>
+            <h4>Theresa Jordan</h4>
+            <h5>Food Enthusiast</h5>
+          </div>
+        </div>
+        <div class="client__rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-line"></i></span>
+          <span>4.8</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download__container" id="contact">
+      <div class="section__container">
+        <div class="download__image">
+          <img src="download.png" alt="download" />
+        </div>
+        <div class="download__content">
+          <p class="section__subheader">Visit our website</p>
+          <h2 class="section__header">Get Started With Fork Today!</h2>
+          <p class="section__description">
+            Discover food wherever and whenever you want and get your food
+            delivered on time, everytime.
+          </p>
+          <div class="download__btn">
+            <button class="btn">The food will be ready before you arrive the restaurant!!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="logo1.png" alt="logo" />
+              <span>Fork</span>
+            </a>
+          </div>
+          <p class="section__description">
+            Our job is to filling youe tummy with delicious food and with fast
+            and free delivery time.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>About</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">Why Fudo?</a></li>
+            <li><a href="#">Partner With Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Support Center</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
